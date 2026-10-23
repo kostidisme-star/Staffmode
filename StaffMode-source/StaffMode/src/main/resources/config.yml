@@ -1,0 +1,20 @@
+# LuckPerms groups that are allowed to use /staffmode.
+# LuckPerms automatically gives every member the permission "group.<name>",
+# so the names here must match your LuckPerms group names exactly.
+allowed-groups:
+  - owner
+  - manager
+  - admin
+  - mod
+  - staff
+  - helper
+
+# Go back to the exact spot you were at when you leave staff mode?
+restore-location: true
+
+# Messages use MiniMessage format.
+messages:
+  enabled: "<gradient:#00FFFF:#0000FF><bold>StaffMode</bold></gradient> <gray>» <green>Enabled. You are now in spectator and vanished."
+  disabled: "<gradient:#00FFFF:#0000FF><bold>StaffMode</bold></gradient> <gray>» <red>Disabled. You are visible again."
+  no-permission: "<red>You don't have permission to use this."
+  players-only: "<red>Only players can use this command."

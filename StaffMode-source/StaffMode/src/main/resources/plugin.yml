@@ -1,0 +1,16 @@
+name: StaffMode
+main: com.coresmp.staffmode.StaffMode
+version: 1.0.0
+api-version: '1.20'
+description: Toggle spectator + vanish for staff members.
+softdepend: [LuckPerms]
+
+commands:
+  staffmode:
+    description: Toggle staff mode (spectator + vanish).
+    usage: /staffmode
+
+permissions:
+  staffmode.use:
+    description: Allows using /staffmode
+    default: false
